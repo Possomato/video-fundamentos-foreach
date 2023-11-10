@@ -47,7 +47,7 @@ o valor que você deseja.
 */
 
 const letters = ['v', 'e', 'p']
-const lettersInUppercase = []
+let lettersInUppercase = []
 
 for (let i = 0; i < letters.length; i++) {
   lettersInUppercase.push(letters[i].toUpperCase())
